@@ -1,0 +1,47 @@
+$c-dark: #000000;
+$c-white: #FDFDFD;
+$c-cyan: #67AEFC;
+$c-light-cyan: #DAECFF;
+$c-blue: #6D79EF;
+$c-green: #75E169;
+
+
+.text-dark {
+    color: $c-dark  !important;
+}
+
+.bg-dark {
+    background-color: $c-dark  !important;
+}
+
+.text-cyan {
+    color: $c-cyan  !important;
+}
+
+.bg-cyan {
+    background-color: $c-cyan  !important;
+}
+
+.text-light-cyan {
+    color: $c-light-cyan  !important;
+}
+
+.bg-light-cyan {
+    background-color: $c-light-cyan  !important;
+}
+
+.text-blue {
+    color: $c-blue  !important;
+}
+
+.bg-blue {
+    background-color: $c-blue  !important;
+}
+
+.text-green {
+    color: $c-green  !important;
+}
+
+.bg-green {
+    background-color: $c-green  !important;
+}
