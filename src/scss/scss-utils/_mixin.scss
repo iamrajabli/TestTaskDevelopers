@@ -8,3 +8,12 @@
     font-size: 32px;
     line-height: 40px
 }
+
+@mixin alt {
+    a {
+        font-size: $font-size-xl;
+        text-decoration: none;
+        color: $c-black;
+        text-transform: uppercase;
+    }
+}

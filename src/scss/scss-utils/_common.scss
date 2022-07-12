@@ -45,3 +45,11 @@ $c-green: #75E169;
 .bg-green {
     background-color: $c-green  !important;
 }
+
+.section__title {
+    @include section-title()
+}
+
+.alt {
+    @include alt();
+}

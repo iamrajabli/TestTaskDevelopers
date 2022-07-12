@@ -1,0 +1,50 @@
+#examples {
+    padding: 100px 0;
+
+    .examples__slider-item {
+        position: relative;
+        cursor: pointer;
+
+        &:hover .examples__slider-bg {
+            display: flex;
+        }
+
+        img {
+            height: 440px;
+            object-fit: cover;
+            border-radius: 15px;
+            width: 100%;
+        }
+
+        .examples__slider-bg {
+            display: none;
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            justify-content: center;
+            align-items: center;
+            background-color: $c-cyan;
+            border-radius: 15px;
+            color: $c-white;
+
+            h3 {
+                font: {
+                    size: 21px;
+                    weight: 700;
+                }
+
+                line-height: 26px;
+            }
+
+        }
+    }
+
+    .examples__control {
+        img {
+            cursor: pointer;
+        }
+    }
+}
