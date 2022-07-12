@@ -142,6 +142,16 @@ header {
   height: 95px;
 }
 
+header .logo {
+  font-size: 1.725rem;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: #FDFDFD;
+  text-transform: uppercase;
+}
+
 #main {
   height: 766px;
   overflow: hidden;

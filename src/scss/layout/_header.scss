@@ -1,5 +1,13 @@
 header {
     height: 95px;
 
-   
+    .logo {
+        font-size: $font-size-xl;
+
+        a {
+            text-decoration: none;
+            color: $c-white;
+            text-transform: uppercase;
+        }
+    }
 }
