@@ -1,13 +1,35 @@
-.btn-main {
+.btn-base {
     background-color: $c-green;
     color: $c-white;
     text-decoration: none;
-    padding: 10px 45px;
     display: inline-block;
     border: 1px solid $c-green;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
-    font-weight: $font-weight-600;
+    font: {
+        size: 15px;
+        weight: $font-weight-600;
+    }
+
+}
+
+.btn-base.main {
+    padding: 21px 95px;
+
+    &:hover {
+        border: 1px solid $c-cyan;
+        color: $c-white;
+    }
+
+    &:active {
+        border: 1px solid $c-cyan;
+        background-color: $c-cyan;
+        color: $c-white;
+    }
+}
+
+.btn-base.nav {
+    padding: 10px 45px;
 
     &:hover {
         border: 1px solid $c-white;
