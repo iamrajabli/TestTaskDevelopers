@@ -173,7 +173,7 @@ header .logo a {
   padding: 100px 0;
 }
 
-#offer h1 {
+#offer h2 {
   font-weight: 800;
   font-size: 32px;
   line-height: 40px;
@@ -209,5 +209,50 @@ header .logo a {
   padding: 0 36px;
   border-left: 1px solid #000000;
   margin-left: 12px;
+}
+
+#services {
+  padding: 100px 0;
+}
+
+#services h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#services .services__slider-container {
+  margin-bottom: 2.5rem;
+}
+
+#services .services__slider-container .services__slider-item {
+  padding: 40px 50px;
+  border: 1px solid #67AEFC;
+  border-radius: 15px;
+  width: 50%;
+}
+
+#services .services__slider-container .services__slider-item img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#services .services__slider-container .services__slider-item h3 {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+#services .services__slider-container .services__slider-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#services .services__control img {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.min.css.map */
