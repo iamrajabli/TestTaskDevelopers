@@ -158,4 +158,46 @@ header {
   line-height: 22.4px;
   width: 400px;
 }
+
+#offer {
+  padding: 100px 0;
+}
+
+#offer h1 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+#offer .offer__content div {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#offer .offer__content .offer__main {
+  min-height: 61px;
+}
+
+#offer .offer__content .offer__main h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#offer .offer__content .offer__drop {
+  padding-bottom: 62px;
+  display: none !important;
+}
+
+#offer .offer__content .offer__drop h3 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+#offer .offer__content .offer__drop p {
+  font-size: 18px;
+  line-height: 31.5px;
+  padding: 0 36px;
+  border-left: 1px solid #000000;
+  margin-left: 12px;
+}
 /*# sourceMappingURL=style.min.css.map */
