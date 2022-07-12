@@ -1,0 +1,22 @@
+.btn-main {
+    background-color: $c-green;
+    color: $c-white;
+    text-decoration: none;
+    padding: 10px 45px;
+    display: inline-block;
+    border: 1px solid $c-green;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    font-weight: $font-weight-600;
+
+    &:hover {
+        border: 1px solid $c-white;
+        color: $c-white;
+    }
+
+    &:active {
+        border: 1px solid $c-white;
+        background-color: $c-white;
+        color: $c-cyan;
+    }
+}
