@@ -104,15 +104,20 @@ table {
   text-transform: uppercase;
 }
 
+.ml-n150 {
+  margin-left: -150px;
+}
+
 .btn-base {
   background-color: #75E169;
   color: #FDFDFD;
   text-decoration: none;
   display: inline-block;
-  border: 1px solid #75E169;
+  border: 2px solid #75E169;
   border-radius: 5px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
 }
@@ -122,12 +127,12 @@ table {
 }
 
 .btn-base.main:hover {
-  border: 1px solid #67AEFC;
+  border: 2px solid #67AEFC;
   color: #FDFDFD;
 }
 
 .btn-base.main:active {
-  border: 1px solid #67AEFC;
+  border: 2px solid #67AEFC;
   background-color: #67AEFC;
   color: #FDFDFD;
 }
@@ -137,12 +142,12 @@ table {
 }
 
 .btn-base.nav:hover {
-  border: 1px solid #FDFDFD;
+  border: 2px solid #FDFDFD;
   color: #FDFDFD;
 }
 
 .btn-base.nav:active {
-  border: 1px solid #FDFDFD;
+  border: 2px solid #FDFDFD;
   background-color: #FDFDFD;
   color: #67AEFC;
 }
@@ -301,10 +306,45 @@ header {
 
 #information {
   padding: 100px 0;
+  overflow: hidden;
 }
 
 #information p {
   font-size: 18px;
   line-height: 25px;
+}
+
+#discuss {
+  padding: 100px 0;
+}
+
+#discuss form input {
+  outline: none;
+  border: 1px solid #67AEFC;
+  height: 58px;
+  border-radius: 10px;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#discuss form input::-webkit-input-placeholder {
+  font-family: "Montserrat";
+}
+
+#discuss form input:-ms-input-placeholder {
+  font-family: "Montserrat";
+}
+
+#discuss form input::-ms-input-placeholder {
+  font-family: "Montserrat";
+}
+
+#discuss form input::placeholder {
+  font-family: "Montserrat";
+}
+
+#discuss form input:focus {
+  border: 2px solid #67AEFC;
 }
 /*# sourceMappingURL=style.min.css.map */

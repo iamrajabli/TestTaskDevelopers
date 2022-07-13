@@ -1,0 +1,24 @@
+#discuss {
+    padding: 100px 0;
+
+    form {
+        input {
+            outline: none;
+            border: 1px solid $c-cyan;
+            height: 58px;
+            border-radius: 10px;
+            padding: 0 20px;
+            box-sizing: border-box;
+
+            &::placeholder {
+                font-family: $font-montserrat;
+            }
+
+        
+
+            &:focus {
+                border: 2px solid $c-cyan;
+            }
+        }
+    }
+}
