@@ -449,6 +449,15 @@ header .header__burger {
   line-height: 26px;
 }
 
+@media (max-width: 576px) {
+  #examples {
+    padding: 30px 0;
+  }
+  #examples img {
+    height: 260px !important;
+  }
+}
+
 #information {
   padding: 100px 0;
   overflow: hidden;

@@ -43,3 +43,13 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    #examples {
+        padding: 30px 0;
+
+        img {
+            height: 260px !important;
+        }
+    }
+}
