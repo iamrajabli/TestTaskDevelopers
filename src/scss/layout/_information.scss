@@ -1,8 +1,37 @@
 #information {
     padding: 100px 0;
     overflow: hidden;
+
     p {
         font-size: 18px;
         line-height: 25px;
+    }
+
+    .section__title.xl {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #information {
+        padding: 50px 0;
+
+        img {
+            height: 181px;
+            width: 259px;
+        }
+
+        .section__title.media {
+            display: none;
+        }
+
+        .section__title.xl {
+            display: block;
+        }
+
+        .row {
+            flex-direction: row-reverse !important;
+        }
     }
 }
