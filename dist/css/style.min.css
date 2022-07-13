@@ -51,11 +51,11 @@ table {
   border-spacing: 0;
 }
 
-.text-dark {
+.text-black {
   color: #000000 !important;
 }
 
-.bg-dark {
+.bg-black {
   background-color: #000000 !important;
 }
 
@@ -76,11 +76,11 @@ table {
 }
 
 .text-blue {
-  color: #6D79EF !important;
+  color: #64ABF9 !important;
 }
 
 .bg-blue {
-  background-color: #6D79EF !important;
+  background-color: #64ABF9 !important;
 }
 
 .text-green {
@@ -346,5 +346,23 @@ header {
 
 #discuss form input:focus {
   border: 2px solid #67AEFC;
+}
+
+footer {
+  height: 469px;
+  padding: 100px 0;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer .logo,
+footer .footer__soc {
+  width: 280px;
+}
+
+footer .logo {
+  margin-top: -20px;
 }
 /*# sourceMappingURL=style.min.css.map */
