@@ -1,48 +1,66 @@
 #services {
     padding: 100px 0;
 
-    .services__slider-wrapper {
-        // width: 2232px;
-        // display: flex;
+    // .services__slider-wrapper {
+    //     // width: 2232px;
+    //     // display: flex;
+    // }
+    .services__slider {
+        overflow: hidden;
+
     }
 
-    .services__slider-container {
+    .services__slider-item {
+        height: 391px;
+    }
 
-        .services__slider-item {
-            padding: 40px 50px;
-            border: 2px solid $c-cyan;
-            border-radius: 15px;
-            width: 50%;
-            margin-bottom: $margin-xxl;
+    .services__slider-inner {
+        border: 2px solid $c-cyan;
+        border-radius: 15px;
+        padding: 50px 30px;
+        display: flex;
+        height: 100%;
 
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
 
-            img {
-                width: 200px;
-                height: 200px;
-                object-fit: cover;
+        h3 {
+            font: {
+                weight: 700;
+                size: 21px;
             }
 
-            h3 {
-                font: {
-                    weight: 700;
-                    size: 21px;
-                }
+            line-height: 26px;
+            margin-bottom: 20px;
+        }
 
-                line-height: 26px;
-                margin-bottom: 20px;
+        p {
+            font: {
+                weight: 400;
+                size: 16px;
             }
 
-            p {
-                font: {
-                    weight: 400;
-                    size: 16px;
-                }
-
-                line-height: 25px;
-            }
+            line-height: 25px;
         }
     }
 
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #services {
+        .services__slider-inner {
+
+            img {
+                width: 170px;
+                height: 170px;
+                margin-right: -20px;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -50,19 +68,30 @@
     #services {
         padding: 30px 0;
 
-        .services__slider {
-            margin: 20px 0 !important;
-        }
-        .services__slider-container {
-            display: block !important;
-        }
-
         .services__slider-item {
-            width: 100% !important;
-
-            img {
-                margin-top: $margin;
-            }
+            height: auto;
         }
+
+        .services__slider-inner {
+            display: block !important;
+
+        }
+
+        .services__slider-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 30px 0;
+
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 30px;
+
+        }
+
+
     }
 }

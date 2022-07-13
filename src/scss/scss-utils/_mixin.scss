@@ -17,3 +17,45 @@
         text-transform: uppercase;
     }
 }
+
+@mixin media-ul {
+    ul {
+        display: none !important;
+        padding: 20px 0;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color: $c-cyan;
+        width: 100%;
+        left: 0;
+        text-align: center;
+
+        li {
+            position: relative;
+
+            &::after {
+                display: none;
+                position: absolute;
+                top: 110%;
+                left: 0;
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-color: $c-white;
+            }
+
+            &:hover::after {
+                display: block;
+            }
+        }
+
+        a {
+            font-weight: $font-weight-800;
+        }
+
+        .burger {
+            display: none;
+        }
+
+    }
+}
