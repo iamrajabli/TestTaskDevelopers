@@ -152,6 +152,29 @@ table {
   color: #67AEFC;
 }
 
+.slider__control div {
+  height: 60px;
+  width: 60px;
+  border-radius: 15px;
+  border: 2px solid #67AEFC;
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.slider__control div:active {
+  background-color: #67AEFC;
+  color: #FDFDFD;
+}
+
 html {
   font-family: "Montserrat";
 }
@@ -248,10 +271,6 @@ header {
   line-height: 25px;
 }
 
-#services .services__control img {
-  cursor: pointer;
-}
-
 #examples {
   padding: 100px 0;
 }
@@ -298,10 +317,6 @@ header {
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
-}
-
-#examples .examples__control img {
-  cursor: pointer;
 }
 
 #information {
