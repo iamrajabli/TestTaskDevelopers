@@ -1,10 +1,9 @@
 #services {
     padding: 100px 0;
 
-    // .services__slider-wrapper {
-    //     // width: 2232px;
-    //     // display: flex;
-    // }
+    .services__slider-wrapper {
+       transition: all 200ms linear;
+    }
     .services__slider {
         overflow: hidden;
 
