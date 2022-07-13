@@ -17,3 +17,32 @@
     }
 
 }
+
+@media (max-width: 576px) {
+    #main {
+
+
+        img {
+            width: 377px;
+
+        }
+
+        .main__content {
+
+            h1 {
+                font: {
+                    size: 27px;
+                    weight: $font-weight-800
+                }
+
+                line-height: 32px;
+                color: $c-black
+            }
+
+            .btn-base {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+}
