@@ -219,6 +219,7 @@ header ul {
 
 header .header__burger {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 576px) {
@@ -237,7 +238,7 @@ header .header__burger {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 20px);
     background-color: #67AEFC;
     width: 100%;
     left: 0;
@@ -262,7 +263,7 @@ header .header__burger {
   header ul a {
     font-weight: 800;
   }
-  header ul .burger {
+  header ul .order {
     display: none;
   }
   header .header__burger {
@@ -285,7 +286,7 @@ header .header__burger {
         -ms-flex-direction: column;
             flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 20px);
     background-color: #67AEFC;
     width: 100%;
     left: 0;
@@ -310,7 +311,7 @@ header .header__burger {
   header ul a {
     font-weight: 800;
   }
-  header ul .burger {
+  header ul .order {
     display: none;
   }
   header .header__burger {
@@ -327,7 +328,7 @@ header .header__burger {
 }
 
 #main .main__content h1 {
-  font-size: 50px;
+  font-size: 49px;
   font-weight: 900;
   color: #484848;
   line-height: 62.5px;
@@ -343,10 +344,9 @@ header .header__burger {
     width: 100%;
   }
   #main .main__content h1 {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 800;
     line-height: 32px;
-    color: #000000;
   }
   #main .main__content .btn-base {
     display: block;
@@ -362,10 +362,16 @@ header .header__burger {
     width: 377px;
   }
   #main .main__content h1 {
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 800;
     line-height: 32px;
-    color: #000000;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main__content h1 {
+    font-size: 40px !important;
+    line-height: 32px;
   }
 }
 

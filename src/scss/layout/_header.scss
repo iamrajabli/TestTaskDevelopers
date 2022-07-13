@@ -7,10 +7,12 @@ header {
 
     ul {
         display: flex;
+
     }
 
     .header__burger {
         display: none;
+        cursor: pointer;
     }
 }
 
