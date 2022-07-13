@@ -702,6 +702,9 @@ header .header__burger {
   #discuss .disc {
     display: none;
   }
+  #discuss .btn-base {
+    width: 100%;
+  }
 }
 
 footer {
@@ -722,6 +725,10 @@ footer .logo {
   margin-top: -20px;
 }
 
+footer .footer__developers {
+  margin-top: 150px;
+}
+
 @media (max-width: 992px) {
   footer p,
   footer a {
@@ -730,6 +737,9 @@ footer .logo {
   footer a,
   footer .hr {
     width: 280px;
+  }
+  footer .footer__developers {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=style.min.css.map */
