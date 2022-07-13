@@ -498,6 +498,10 @@ header .header__burger {
   padding: 100px 0;
 }
 
+#discuss .mobile {
+  display: none;
+}
+
 #discuss form input {
   outline: none;
   border: 1px solid #67AEFC;
@@ -526,6 +530,30 @@ header .header__burger {
 
 #discuss form input:focus {
   border: 2px solid #67AEFC;
+}
+
+@media (max-width: 576px) {
+  #discuss {
+    padding: 50px 0;
+  }
+  #discuss input {
+    width: 100% !important;
+  }
+  #discuss .form {
+    -webkit-box-ordinal-group: 0 !important;
+        -ms-flex-order: -1 !important;
+            order: -1 !important;
+  }
+  #discuss .mobile {
+    display: block !important;
+    height: 242px;
+    width: 171px;
+    margin-top: 1.725rem;
+  }
+  #discuss .phone,
+  #discuss .disc {
+    display: none;
+  }
 }
 
 footer {
