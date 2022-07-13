@@ -20,10 +20,8 @@
 
 @media (max-width: 576px) {
     #main {
-
-
         img {
-            width: 377px;
+            width: 100%;
 
         }
 
@@ -43,6 +41,31 @@
                 display: block;
                 text-align: center;
             }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    #main {
+    height: 566px;
+
+        img {
+            width: 377px;
+
+        }
+
+        .main__content {
+
+            h1 {
+                font: {
+                    size: 27px;
+                    weight: $font-weight-800
+                }
+
+                line-height: 32px;
+                color: $c-black
+            }
+
         }
     }
 }

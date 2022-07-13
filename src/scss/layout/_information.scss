@@ -12,7 +12,31 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (min-width: 768px) and (max-width: 992px) {
+    #information {
+        padding: 50px 0;
+
+        img {
+            height:300px;
+            width: 400px;
+        }
+
+        .section__title.media {
+            display: none;
+        }
+
+        .section__title.xl {
+            display: block;
+        }
+
+        .row {
+            flex-direction: row-reverse !important;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
 
     #information {
         padding: 50px 0;
@@ -33,5 +57,6 @@
         .row {
             flex-direction: row-reverse !important;
         }
+
     }
 }
