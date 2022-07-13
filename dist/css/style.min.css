@@ -298,4 +298,13 @@ header {
 #examples .examples__control img {
   cursor: pointer;
 }
+
+#information {
+  padding: 100px 0;
+}
+
+#information p {
+  font-size: 18px;
+  line-height: 25px;
+}
 /*# sourceMappingURL=style.min.css.map */
