@@ -1,12 +1,13 @@
 export default function slider(prevSelector, nextSelector, wrapperSelector, slidesSelector) {
+    const callHTML = selector => document.querySelector(selector),
+        prev = callHTML(prevSelector),
+        next = callHTML(nextSelector),
+        wrapper = callHTML(wrapperSelector),
+        slides = document.querySelectorAll(slidesSelector);
 
-    const prev = document.querySelector(prevSelector);
-    const next = document.querySelector(nextSelector);
-    const wrapper = document.querySelector(wrapperSelector);
-    const slides = document.querySelectorAll(slidesSelector);
 
-    let width = slides[0].offsetWidth;
-    let offset = 0;
+   let width = slides[0].offsetWidth,
+        offset = 0;
 
 
     const transform = () => {
