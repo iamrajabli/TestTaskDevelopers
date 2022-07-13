@@ -573,4 +573,15 @@ footer .footer__soc {
 footer .logo {
   margin-top: -20px;
 }
+
+@media (max-width: 576px) {
+  footer p,
+  footer a {
+    font-size: 16px !important;
+  }
+  footer a,
+  footer .hr {
+    width: 280px;
+  }
+}
 /*# sourceMappingURL=style.min.css.map */
