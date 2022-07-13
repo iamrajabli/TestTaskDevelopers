@@ -108,6 +108,10 @@ table {
   margin-left: -150px;
 }
 
+.empty {
+  border: 1px solid #c90000 !important;
+}
+
 @media (max-width: 576px) {
   .section__title h2 {
     font-size: 23px;
