@@ -14,27 +14,26 @@
 ### UI
 
 
-
-![1](https://i.ibb.co/9T19tfG/1.png)
-
-<hr>
-
-![2](https://i.ibb.co/s60rMjp/2.png)
+![1](/src/resources/img/site/1.png)
 
 <hr>
 
-![3](https://i.ibb.co/YDhTfby/3.png)
+![2](/src/resources/img/site/2.png)
 
 <hr>
 
-![4](https://i.ibb.co/vP5jmm0/4.png)
+![3](/src/resources/img/site/3.png)
 
 <hr>
 
-![5](https://i.ibb.co/CwNzsrw/5.png)
+![4](/src/resources/img/site/4.png)
 
 <hr>
 
-![6](https://i.ibb.co/s1VsM4S/6.png)
+![5](/src/resources/img/site/5.png)
+
+<hr>
+
+![6](/src/resources/img/site/6.png)
 
 <hr>
