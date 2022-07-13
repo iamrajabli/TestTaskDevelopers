@@ -13,26 +13,28 @@
 
 ### UI
 
-![1](https://ibb.co/Ltcz5qv)
+
+
+![1](https://i.ibb.co/9T19tfG/1.png)
 
 <hr>
 
-![2](https://ibb.co/TbV5FcD)
+![2](https://i.ibb.co/s60rMjp/2.png)
 
 <hr>
 
-![3](https://ibb.co/jVDZ3HW)
+![3](https://i.ibb.co/YDhTfby/3.png)
 
 <hr>
 
-![4](https://ibb.co/Php644q)
+![4](https://i.ibb.co/vP5jmm0/4.png)
 
 <hr>
 
-![5](https://ibb.co/9pzN3Mp)
+![5](https://i.ibb.co/CwNzsrw/5.png)
 
 <hr>
 
-![6](https://ibb.co/gWRtB8)
+![6](https://i.ibb.co/s1VsM4S/6.png)
 
 <hr>
