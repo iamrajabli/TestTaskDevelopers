@@ -395,7 +395,7 @@ header .header__burger {
 
 #offer .offer__content .offer__drop {
   padding-bottom: 62px;
-  display: none !important;
+  display: none;
 }
 
 #offer .offer__content .offer__drop h3 {
