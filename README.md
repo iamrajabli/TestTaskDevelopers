@@ -1,6 +1,6 @@
 # Test Task Developers
 
-- 🔑 Source: [CODE](https://github.com/iamrajabli/TestTaskDevelopers)
+- 🔑 Source: [CODE](https://github.com/iamrajabli/test-task-developers)
   - 👁‍🗨 Live Preview: [SITE](https://task-ralorem.netlify.app)
   - 🔍 Using in the project:
     - HTML
